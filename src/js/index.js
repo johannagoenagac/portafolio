@@ -1,13 +1,10 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.fixed-action-btn');
-    var instances = M.FloatingActionButton.init(elems, options);
-  });
+window.onload =() =>{
 
+  function arrowClick(){
 
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.fixed-action-btn');
-    var instances = M.FloatingActionButton.init(elems, {
-      direction: 'top',
-      hoverEnabled: false
-    });
-  });
+    document.getElementById("about-me").style.display="block";
+  console.log("hola");
+  }
+return arrowClick;
+}
+

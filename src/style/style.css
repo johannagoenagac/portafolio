@@ -15,22 +15,18 @@ body{
     
 }
 
-#btnArrow{
-    background-color: transparent;
-    border:none;
-}
 #arrow{
    bottom: 0;
    position:absolute;
    margin: auto;
    display:flex;
-   
 }
 
 #hello{
     margin: 0 auto;
     margin-top: 12%;
 }
+
 #hello, #iAm{
     font-size: 45px;
     font-family: "lato", sans-serif;
@@ -46,6 +42,7 @@ body{
     width: 64px;
     height: 64px;
 }
+
 .navbar{
     float: right;
     margin-right: 0.5rem;
@@ -115,8 +112,6 @@ ul#nav-mobile li a{
     color:#FCFCFC;
     font-family: "Lato", sans-serif;
     margin-top: 25%;
-    
-    
 }
 
  #myphoto{
@@ -130,7 +125,6 @@ ul#nav-mobile li a{
     text-align: center;
     font-size: 100px;
     margin-top:13%;
-    
 }
 
 .slider{
