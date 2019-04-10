@@ -90,7 +90,7 @@ ul#nav-mobile li a{
 }
 
 #proyects{
-    background-color: #f7f1e8;
+    background-color: #c5c3c1;
 }
 
 #contactPage{
@@ -116,10 +116,11 @@ ul#nav-mobile li a{
 
  #myphoto{
     width: 60%;
-    height: 550px;
-    margin: 0;
-    top:10%;
-    margin-top: 5%
+    height: 70%;
+    margin-left: 5%;
+    position: sticky;
+    margin-top: 1.5%;
+
 }  
 
 #tech-logos{
@@ -128,29 +129,138 @@ ul#nav-mobile li a{
     margin-top:13%;
 }
 
-.slider{
-    width: 100%;
-    margin: 0px;
-   overflow: hidden;
+.card{
+    width: 380px;
+    height: 280px;
+    border-radius: 20%;
 }
 
-.slider ul {
+.activator{
+   height: 200px; 
+}
+
+#cardsProyect{
+    text-align: center;
+    margin: 0 auto;
     display: flex;
-    padding: 0;
-    width: 400%;
-    margin: -4px;
-    animation: cambio 20s infinite alternate linear;
+    margin-left: 10%;
 }
 
-.slider li {
-    width: 100%;
-    list-style: none;
-    margin: -8px;
+#talk{
+  font-size: 35px;
+  color: #ffa726;
 }
 
-.slider img {
-    width: 100%;
+.email{
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
 }
+
+.email:hover{
+  color: #ffa726;
+  
+}
+
+#textContact{
+  margin-top: 8%;
+  font-size: 25px;
+  font-family: "lato", sans-serif;
+}
+#follow-me{
+  color: #a56c17;
+  font-size: 20px; 
+  margin-top: 8%;
+}
+
+#logosContact{
+  display: inline;
+  margin:10px;
+}
+
+#linkedin, #github{
+  margin-top:3%;
+  margin: 10px;
+}
+
+#follow{
+  margin-top: 10%;
+}
+
+#content-img{
+  display: flex;
+}
+#contact-img{
+  justify-content: center;
+  margin: 0 auto;
+  opacity: 0.3;
+  max-width: 100%;
+  margin-top: 10%;
+  border-radius:5px;
+}
+
+/* #menuFooter li a{
+  display: inline !important;
+  color: white;
+  list-style: none;
+  font-size: 20px;
+  font-family: 'lato', sans-serif;
+  padding: 0.5rem;
+  
+}
+
+#home-footer:hover, #about-me-footer:hover,#proyect-footer:hover,#tech-footer:hover{
+  color:#ffa726;
+}
+
+#titleMenu{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+#return{
+  margin-top: 10%;
+} */
+
+.puff-in-center {
+	-webkit-animation: puff-in-center 1.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: puff-in-center 1.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@-webkit-keyframes puff-in-center {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+      -webkit-filter: blur(2px);
+              filter: blur(2px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes puff-in-center {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+      -webkit-filter: blur(2px);
+              filter: blur(2px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
 
 @keyframes cambio {
     0% {margin-left: 0;}
@@ -166,11 +276,116 @@ ul#nav-mobile li a{
     100% {margin-left: -300%;}
 }
 
+.tracking-in-expand-fwd-top {
+	-webkit-animation: tracking-in-expand-fwd-top 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd-top 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
 
-/* i#trello,i#git,i#react,i#javascript,
-i#bootstrap,i#html,i#css{
-    
-} */
+@-webkit-keyframes tracking-in-expand-fwd-top {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand-fwd-top {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .tracking-in-expand-fwd-bottom {
+	-webkit-animation: tracking-in-expand-fwd-bottom 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd-bottom 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand-fwd-bottom {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(500px);
+              transform: translateZ(-700px) translateY(500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand-fwd-bottom {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(500px);
+              transform: translateZ(-700px) translateY(500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .swirl-in-fwd {
+	-webkit-animation: swirl-in-fwd 1s ease-out both;
+	        animation: swirl-in-fwd 1s ease-out both;
+}
+
+@-webkit-keyframes swirl-in-fwd {
+    0% {
+      -webkit-transform: rotate(-540deg) scale(0);
+              transform: rotate(-540deg) scale(0);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(0) scale(1);
+              transform: rotate(0) scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes swirl-in-fwd {
+    0% {
+      -webkit-transform: rotate(-540deg) scale(0);
+              transform: rotate(-540deg) scale(0);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(0) scale(1);
+              transform: rotate(0) scale(1);
+      opacity: 1;
+    }
+  }
+  
+  
+  
+
+
 
 @media (min-width: 350px) and (max-width: 600px){
    
@@ -186,3 +401,9 @@ i#bootstrap,i#html,i#css{
         }
         
         } 
+
+        @media only screen and (min-width: 601px){
+        .container {
+            width: 100%;
+        }
+    }
