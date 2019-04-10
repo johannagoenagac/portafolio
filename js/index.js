@@ -1,10 +1,16 @@
 window.onload =() =>{
 
-  function arrowClick(){
+  document.getElementById("more").addEventListener("click",()=>{
 
     document.getElementById("about-me").style.display="block";
-  console.log("hola");
+    document.getElementById("coverpage").style.display="none";
+   
+  })
+  
+
+
+
   }
-return arrowClick;
-}
+
+
 
