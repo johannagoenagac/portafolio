@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/johannagoenagac/portafolio#readme",
   "dependencies": {
+    "firebase-tools": "^6.7.0",
     "jquery-scrollify": "^1.0.20"
   }
 }

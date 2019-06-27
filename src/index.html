@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
@@ -11,7 +12,7 @@
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link rel="stylesheet"
     href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -21,24 +22,7 @@
 </head>
 
 <body>
-
-
-  <header>
-    <section class="navbar-wrapper">
-      <div class="navbar">
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="coverpage" target="_blank" id="home-menu" class="menu">INICIO</a></li>
-          <li><a href="about-me" target="_blank" id="about-me-menu" class="menu">SOBRE MI</a></li>
-          <li><a href="tech-skills" target="_blank" id="proyect-menu" class="menu">HABILIDADES</a></li>
-          <li><a href="proyects" target="_blank" id="tech-menu" class="menu">PROYECTOS</a></li>
-          <li><a href="contact" target="_blank" id="contact-menu" class="menu">CONTACTO</a></li>
-        </ul>
-      </div>
-    </section>
-
-  </header>
-
-
+  
   <section id="coverpage" class="responsive-img">
 
     <div class="container">
@@ -53,60 +37,202 @@
     </div>
 
 
-    <div id="arrow" class="container">
-      <div class="row">
-        <div class="col s12 m12 l12">
+    <div class="arrow-down">
 
-          <img id="more" src="style/img/expand-button.png" alt="">
-
-        </div>
-      </div>
     </div>
 
-
   </section>
-
-
 
   <section id="about-me">
 
-
-    <!-- <h2 id="aboutMe">SOBRE MI</h2> -->
-
-    <div id="me" class="container">
-      <div class="row">
-
-        <div class="col s12 m6 l6">
-
-          <div id="photo" class="item">
-            <img id="myphoto" src="./style/img/meImg.jpeg" class="responsive-img" alt="foto">
-          </div>
-
-        </div>
-
-        <div class="col s12 m6 l6">
-
-          <div id="text-me" class="item">
-            <p>Programadora Front-End Developer</br>
-              Apasionada y llena de ganas de aprender nuevas tecnologías</br>
-              Me encanta el trabajo en equipo y enfrentarme a nuevos desafios.</br>
-              "El Codigo es arte y magía, se pueden crear cosas increibles".</p>
-          </div>
-
-        </div>
-
-      </div>
+    <div id="welcome-text">
+      <h1 id="hello-text">Hola, Soy Johanna. Es un gusto que estes aquí</h1>
     </div>
+
+    <div id="text-about-me">
+      <p id="about-me-text">Me apasiona la tecnología y aprender cada día, <br />
+        creo que el trabajo en equipo es primordial para llevar a cabo <br />
+        proyectos exitosos y sustentables.<br />
+        Me gusta trabajar con metodologías agíles, ya que <br />
+        es una excelente forma de llevar el trabajo en conjunto y aprender del proceso.
+        <br />
+        En mis tiempos libres disfruto mucho de dibujar <i class="fas fa-pencil-alt"></i> y escuchar música <i
+          class="fas fa-music"></i></p>
+    </div>
+
+    <div class="containImageGirl">
+      <img class="imageGirl" src="https://i.ibb.co/k6sMrcM/Girl.png" alt="Girl" />
+
+    </div>
+
 
 
   </section>
 
+  <section id="section-my-proyects">
+
+      <div >
+          <h1 id="tittle-proyects">Proyectos</h1>
+      </div>
+
+      <div class="container" id="contain-cards">
+       
+          
+        
+
+          <div class="flip-card">
+              <div class="flip-card-inner">
+
+                  <div class="flip-card-front">
+                      <img class="img-card" src="https://i.ibb.co/W2nDppQ/League-Of-Legends.png" alt="Avatar" />
+                  </div>
+
+
+
+                  <div class="flip-card-back">
+                      <div class="text">League Of Legends</div>
+
+
+                      <div class="text-card">
+                          <p>En esta página podrás encontrar información relevante de los personajes del juego League Of leyends y comenzar un juego con lo necesario para enfrentar a tu oponente.</p>
+                      </div>
+
+                      <div id="buttons-cards">
+
+                          <div>
+                              <button class="repo-btn">Ver repositorio</button>
+                          </div>
+                          <div>
+                              <button class="we-btn">Ver página web</button>
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+
+
+
+          </div>
+
+
+          <div class="flip-card">
+              <div class="flip-card-inner">
+
+                  <div class="flip-card-front">
+                      <img class="img-card" src="https://i.ibb.co/Gxpd3pD/La-Vitrina.png" alt="Avatar" />
+                  </div>
+
+
+
+                  <div class="flip-card-back">
+                      <div class="text">La Vitrina</div>
+
+                      <div class="text-card">
+                          <p>Pagina web creada con el proposito de tener una vitrina de los últimos estrenos de películas y sus trailer. Hackaton Movies-Laboratoria.</p>
+                      </div>
+
+
+                      <div id="buttons-cards">
+
+                          <div>
+                              <a href="https://github.com/johannagoenagac/hackathon" ><button class="repo-btn">Ver repositorio</button></a>
+                          </div>
+                          <div>
+                              <a href="https://johannagoenagac.github.io/hackathon/" ><button class="we-btn">Ver página web</button></a>
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+
+
+
+          </div>
+
+
+          <div class="flip-card">
+
+              <div class="flip-card-inner">
+
+                  <div class="flip-card-front">
+                      <img class="img-card" src="https://i.ibb.co/PtT1cjs/Burguer-Queen-2.png" alt="Avatar" />
+                  </div>
+
+
+
+                  <div class="flip-card-back">
+                      <div class="text">Burguer Queen</div>
+
+                      <div class="text-card">
+                          <p>App Web creada para el uso de restaurantes, la toma de pedidos del menú y el envio de estos a la cocina. </p>
+                      </div>
+
+
+                      <div id="buttons-cards">
+
+                          <div>
+                              <button class="repo-btn">Ver repositorio</button>
+                          </div>
+                          <div>
+                              <button class="we-btn">Ver página web</button>
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+
+          <div class="flip-card">
+              <div class="flip-card-inner">
+
+                  <div class="flip-card-front">
+                      <img class="img-card" src="https://i.ibb.co/tJvgGz2/Md-Links.png" alt="Avatar" />
+                  </div>
+
+
+
+                  <div class="flip-card-back">
+                      <div class="text">Md-Links</div>
+
+                      <div class="text-card">
+                          <p>Módulo creado con Node.js el cual busca los archivos .md de un directorio y extrae los links para validar su estado</p>
+                      </div>
+
+
+
+                      <div id="buttons-cards">
+
+                          <div>
+                              <button class="repo-btn">Ver repositorio</button>
+                          </div>
+
+
+                      </div>
+
+
+                  </div>
+
+              </div>
+
+
+
+          </div>
+
+       
+   
+      </div>
+
+    </section>
+
 
   <section id="tech-skills">
-    <h2 id="skills">HABILIDADES</h2>
-   
+
+    <p id="titlePage-Skills">Habilidades</p>
     <div id="tech-logos" class="container swirl-in-fwd">
       <div class="row">
+
+      
         <i id="css" class="devicon-css3-plain"></i>
         <i id="trello" class="devicon-trello-plain"></i>
         <i id="git" class="devicon-git-plain"></i>
@@ -122,163 +248,70 @@
   </section>
 
 
-  <section id="proyects">
-    <h2 id="proyect">PROYECTOS</h2>
+  <section id="contactPage" class="footer">
 
+    <div id="contact">
 
-    
       <div class="container">
-        <div class=row>
-            <div id="cardsProyect">
+        <div id="column-contact" class="row">
 
 
-          <div class="col s12 m6 l6">
-            <div id="twoFirst">
-                
-              <div id="imgLol" class="card puff-in-center">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="./style/img/lolImage.png">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">League Of Legends<i
-                      class="material-icons right">more_vert</i></span>
+          <div id="text-contact" class="col s12 m8 l8">
+            <h4 id="talk">Hablame a:</h4>
+            <a class="email" href="mailto:johannagoenagac@gmail.com">johannagoenagac@gmail.com</a>
+            <p id="textContact">Si quieres saber más de mi, estas interesado en mis habilidades,</br> mis trabajos o
+              simplemente quieres compartir ideas,</br> no dudes en contactarme :)</p>
 
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">League Of Legends<i
-                      class="material-icons right">close</i></span>
-                  <p>Este producto fue diseñados para jóvenes que desean iniciarse en el juego League of Legends y tienen poco conocimiento sobre los personajes.
-                    Aquí le entregamos datos relevantes para comenzar el juego. 
-                  </p>
-                </div>
-              </div>
+            <div id=follow>
+              <h5 id="follow-me">Sigueme en:</h5>
+              <div id="logosContact">
+                <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in"></i></a>
 
-              <div id="imgVitrina" class="card puff-in-center">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="./style/img/LavitrinaImg.png">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">La Vitrina<i
-                      class="material-icons right">more_vert</i></span>
-
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">La Vitrina<i
-                      class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
+                <a href="https://github.com/johannagoenagac"><i class="fab fa-github"></i></i></a>
               </div>
 
             </div>
           </div>
 
-          <div class="col s12 m6 l6">
-            <div id="twoNext">
-
-              <div id="imgF&T" class="card puff-in-center">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="./style/img/F&TImage.png">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Food & Travel<i
-                      class="material-icons right">more_vert</i></span>
-
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Food & Travel<i
-                      class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-              </div>
-
-              <div id="imgburguer" class="card puff-in-center">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="./style/img/burguerImg.png">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Burguer Queen<i
-                      class="material-icons right">more_vert</i></span>
-
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Burguer Queen<i
-                      class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-              </div>
-
-            </div>
+          <div id="img-footer" class="col s12 m4 l4">
+            <img id="imgFooter" src="./style/img/meElipse.png" alt="">
           </div>
 
         </div>
+
+        <div id="back">
+          <a href="#" class="to-top"></a>
+        </div>
       </div>
+
+
+
     </div>
-
-
-
 
   </section>
 
-
-
-
-  <section id="contact">
-
-  </section>
-
-
-  <section id="contactPage" class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col s12 m8 l8">
-
-    <div id="contact">
-      <h4 id="talk">Hablame a:</h4>
-      <a  class="email" href="mailto:johannagoenagac@gmail.com">johannagoenagac@gmail.com</a>
-      <p id="textContact">Si quieres saber más de mi, estas interesado en mis habilidades,</br> mis trabajos o simplemente quieres compartir ideas,</br> no dudes en contactarme : )</p>
-      
-      <div id=follow>
-      <h5 id="follow-me">Sigueme en:</h5>
-      <div id="logosContact">
-      <img href="" id="linkedin" src="./style/img/linkedin-logotype-button.png">
-      <img href="" id="github" src="./style/img/github-sign.png">
-    </div>
-
-  </div>
-
-    <!-- <div id="return">
-        <ul id="menuFooter">
-            <li><a href="coverpage" target="_blank" id="home-footer" class="menu">INICIO</a></li>
-            <li><a href="about-me" target="_blank" id="about-me-footer" class="menu">SOBRE MI</a></li>
-            <li><a href="tech-skills" target="_blank" id="proyect-footer" class="menu">HABILIDADES</a></li>
-            <li><a href="proyects" target="_blank" id="tech-footer" class="menu">PROYECTOS</a></li>
-            
-        </ul>
-      
-    </div> -->
-
-  </div>
-
-</div>
   
 
 
-<div class="col s12 m4 l4 "> 
-      <div id=content-img>
-      <img id="contact-img" src="style/img/phone-612061_640.jpg">
-      </div> 
-    </div>
-
-  </div>
-
-</div>
-
-  </section>
-
   <script src="./js/index.js"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://kit.fontawesome.com/4181f8e02c.js"></script>
 
+  <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDl_cADTbTGa8Jzc-fxCObaAxm3DEDakGY",
+      authDomain: "mi-portafolio-4b994.firebaseapp.com",
+      databaseURL: "https://mi-portafolio-4b994.firebaseio.com",
+      projectId: "mi-portafolio-4b994",
+      storageBucket: "mi-portafolio-4b994.appspot.com",
+      messagingSenderId: "688870480906"
+    };
+    firebase.initializeApp(config);
+  </script>
 </body>
 
 </html>
