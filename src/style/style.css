@@ -192,25 +192,6 @@ body {
   color: white;
 }
 
-.carousel-wrapper {
-  height: 450px;
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 40px;
-}
-
-.carousel-item {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 25px 50px;
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
-}
-
 .arrow {
   border: solid #212121;
   border-width: 0 3px 3px 0;
@@ -236,50 +217,7 @@ body {
   color: white;
 }
 
-@media (max-width: 480px) {
-  .arrow,
-  .light .arrow {
-    background-size: 10px;
-    background-position: 10px 50%;
-  }
 
-  #welcome-text {
-    padding-top: 2%;
-  }
-
-  #welcome-text,
-  #text-about-me,
-  #hello-text {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    font-family: "Roboto", sans-serif;
-  }
-
-  .containImageGirl {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-  }
-
-  .imageGirl {
-    width: 90px;
-    height: 100px;
-  }
-
-  #hello-text {
-    font-size: 16px;
-    color: #fff;
-    margin-left: 5%;
-  }
-
-  #text-about-me {
-    font-size: 14px;
-    color: #fff;
-    line-height: 1.3;
-    text-align: center;
-  }
-}
 
 #section-my-proyects {
   width: 100%;
@@ -702,8 +640,6 @@ body {
     opacity: 1;
   }
 }
-
-
 
 @media (max-width: 480px) {
   .arrow,
