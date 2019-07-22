@@ -319,6 +319,7 @@ body {
   margin: 0 auto;
   column-count: 4; 
   padding-top: 4%;
+  flex-wrap: wrap;
  } 
 
 .text-card {
@@ -687,6 +688,7 @@ body {
 
   #section-my-proyects {
     width: 100%;
+    height: auto;
     
   }
 }
@@ -698,15 +700,10 @@ body {
 
   #section-my-proyects {
     width: 100%;
+    height: auto;
    
   }  
 
-  #contain-cards{
-    column-count: 2!important;
-    display:flex;
-    justify-content: center;
-    margin: 0 auto;
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -794,12 +791,10 @@ body {
 
   #section-my-proyects {
     width: 100%;
+    height: auto;
    
   }  
 
-  #contain-cards{
-    column-count: 2!important;
-  }
 }
 
 @media only screen and (min-width: 993px) {
@@ -809,13 +804,10 @@ body {
 
   #section-my-proyects {
     width: 100%;
-   
+    height: auto;
   }  
 
-  #contain-cards{
-    column-count: 2!important;
-    columns: 2;
-  }
+  
 
   
 }
